@@ -82,4 +82,14 @@ main {
   text-decoration: underline;
 }
 
+footer {
+  text-align: center;
+  background-color: darksalmon;
+  font-size: 25px;
+  text-transform: capitalize;
+  font-family: "Times New Roman", Times, serif;
+  padding: 20px;
+  letter-spacing: 3px;
+}
+
 /*# sourceMappingURL=style.css.map */
