@@ -102,3 +102,35 @@ footer{
         text-shadow: 0 0 5px #333;
     }
 }
+
+.galeria{
+    background-color: antiquewhite;
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,200px);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+h2{
+    background-color: #000;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: antiquewhite;
+    text-shadow: 0 0 5px #333;
+    padding: 10px;
+    h2:hover{
+        text-decoration: underline;
+    }
+}
+
+.item{
+    width: 100%;
+    border: 2px solid #000;
+    .item:hover{
+        transform: scale(1.05);
+        transition: all 1s;
+    }
+}
