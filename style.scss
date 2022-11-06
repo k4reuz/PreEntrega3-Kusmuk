@@ -15,3 +15,12 @@ header{
     justify-content: space-between;
     padding: 20px;
 }
+
+.logo{
+    color: white;
+    text-shadow: 0 0 3px #000;
+    span{
+        color: #000;
+        text-decoration: underline;
+    }
+}

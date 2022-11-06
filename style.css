@@ -16,4 +16,13 @@ header {
   padding: 20px;
 }
 
+.logo {
+  color: white;
+  text-shadow: 0 0 3px #000;
+}
+.logo span {
+  color: #000;
+  text-decoration: underline;
+}
+
 /*# sourceMappingURL=style.css.map */
