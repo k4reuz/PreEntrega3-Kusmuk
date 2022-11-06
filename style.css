@@ -25,4 +25,32 @@ header {
   text-decoration: underline;
 }
 
+main {
+  background-image: url(#);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.barra {
+  float: right;
+}
+.barra ul {
+  list-style: none;
+}
+.barra li {
+  display: inline-block;
+}
+.barra a {
+  text-decoration: none;
+  color: #000;
+  font-family: sans-serif;
+}
+.barra a:hover {
+  color: brown;
+  text-shadow: 0 0 2px burlywood;
+  text-decoration: underline;
+}
+
 /*# sourceMappingURL=style.css.map */
