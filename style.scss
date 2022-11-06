@@ -5,7 +5,7 @@
 }
 
 header{
-    height: 80px;
+    height: 85px;
     width: 100%;
     background-color: antiquewhite;
     font-family: sans-serif;
@@ -40,6 +40,7 @@ main{
     }
     li{
         display: inline-block;
+        letter-spacing: 2px;
     }
     a{
         text-decoration: none;
@@ -51,5 +52,34 @@ main{
         text-shadow: 0 0 2px burlywood;
         text-decoration: underline;
     }
+}
+
+.call{
+    width: 50%;
+    background-color: antiquewhite;
+    border: 2px solid #000;
+    border-radius: 5px;
+    float: right;
+    margin: 20px;
+    padding: 20px;
+    font-family: sans-serif;
+    h1{
+        color: chocolate;
+        margin-bottom: 10px;
+    }
+    p{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    a{
+        text-decoration: none;
+        padding: 10px 20px;
+        color: #000;
+    }
+    a:hover{
+        color: grey;
+        text-decoration: underline;
+    }
+
 }
 

@@ -5,7 +5,7 @@
 }
 
 header {
-  height: 80px;
+  height: 85px;
   width: 100%;
   background-color: antiquewhite;
   font-family: sans-serif;
@@ -41,6 +41,7 @@ main {
 }
 .barra li {
   display: inline-block;
+  letter-spacing: 2px;
 }
 .barra a {
   text-decoration: none;
@@ -50,6 +51,34 @@ main {
 .barra a:hover {
   color: brown;
   text-shadow: 0 0 2px burlywood;
+  text-decoration: underline;
+}
+
+.call {
+  width: 50%;
+  background-color: antiquewhite;
+  border: 2px solid #000;
+  border-radius: 5px;
+  float: right;
+  margin: 20px;
+  padding: 20px;
+  font-family: sans-serif;
+}
+.call h1 {
+  color: chocolate;
+  margin-bottom: 10px;
+}
+.call p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.call a {
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #000;
+}
+.call a:hover {
+  color: grey;
   text-decoration: underline;
 }
 
