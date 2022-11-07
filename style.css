@@ -132,4 +132,28 @@ h2 h2:hover {
   transition: all 1s;
 }
 
+.item1 {
+  background-image: url();
+  background-size: cover;
+  background-position: center;
+}
+
+.item2 {
+  background-image: url();
+  background-size: cover;
+  background-position: center;
+}
+
+.item3 {
+  background-image: url();
+  background-size: cover;
+  background-position: center;
+}
+
+.item4 {
+  background-image: url();
+  background-size: cover;
+  background-position: center;
+}
+
 /*# sourceMappingURL=style.css.map */
