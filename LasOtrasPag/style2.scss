@@ -94,6 +94,7 @@ h2{
     }
 }
 
+/* Prendas de hombre*/
 .itemA{
     background-image: url(../img/AirMaxGris.jpeg);
     background-size: cover;
@@ -130,6 +131,45 @@ h2{
     background-position: center;
 }
 
+/*Prenda de mujeres*/
+.itemG{
+    background-image: url(../img/BuzoCelesteM.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.itemH{
+    background-image: url(../img/CamperaRosaM.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.itemI{
+    background-image: url(../img/ZapatillaBlancaM.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.itemJ{
+    background-image: url(../img/ZapatillaRosaM.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.itemK{
+    background-image: url(../img/NikeRemeraM.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.itemL{
+    background-image: url(../img/RemeraLargaM.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
 @media only screen and (min-width:480px) {
     .galeria{
         grid-template-columns: 1fr 1fr;
@@ -152,6 +192,9 @@ h2{
         grid-row: 1/3;
     }
     .itemF{
+        grid-row: 1/3;
+    }
+    .itemK{
         grid-row: 1/3;
     }
 }
