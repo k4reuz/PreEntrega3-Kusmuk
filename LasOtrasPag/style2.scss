@@ -176,6 +176,22 @@ form{
     border: 2px solid #000;
 }
 
+/*Video de Sobre Nosotros*/
+.container{
+    padding: 20px 20px;
+    text-align: center;
+}
+.text{
+    padding: 20px;
+    background-color: antiquewhite;
+    width: 100%;
+    p{
+        
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+}
 
 
 @media only screen and (min-width:480px) {
